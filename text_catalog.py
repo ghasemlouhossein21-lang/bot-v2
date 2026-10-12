@@ -480,7 +480,6 @@ TEXT_CATEGORIES.setdefault("🎫 مدیریت تیکت", []).extend([
     ("admin_ticket_not_found", "تیکت پیدا نشد یا دیگر قابل مدیریت نیست."),
     ("admin_ticket_closed_notice", "این تیکت بسته شد."),
     ("admin_ticket_reopened_notice", "این تیکت دوباره باز شد."),
-    ("ticket_user_reply_prefix", "پاسخ پشتیبانی:"),
     ("admin_ticket_next", "➡️ بعدی"),
     ("admin_ticket_prev", "⬅️ قبلی"),
     ("admin_ticket_new_notice", "🎫 تیکت جدید #{ticket_id}\n\n👤 کاربر: {name}\n🆔 Telegram ID: {telegram_id}\n\n{body}"),
@@ -490,7 +489,7 @@ TEXT_CATEGORIES.setdefault("🎫 مدیریت تیکت", []).extend([
 ])
 
 # 🎫 تیکت — سمت کاربر (لیست تیکت‌ها، مکالمه، پاسخ روی همان تیکت)
-TEXT_CATEGORIES.setdefault("🎫 تیکت کاربر", []).extend([
+TEXT_CATEGORIES.setdefault('👨\u200d💻 پشتیبانی و نمایندگی', []).extend([
     ("support_my_tickets", "📋 تیکت‌های من"),
     ("my_tickets_empty", "📋 هنوز هیچ تیکتی ثبت نکرده‌اید."),
     ("my_tickets_title", "📋 تیکت‌های شما:\n\nبرای دیدن مکالمه‌ی هرکدام روی آن بزنید 👇"),
@@ -509,6 +508,7 @@ TEXT_CATEGORIES.setdefault("🎫 تیکت کاربر", []).extend([
     ("ticket_not_found_user", "❌ این تیکت پیدا نشد."),
     ("ticket_added", "✅ پیام شما به تیکت #{ticket_id} اضافه شد و برای پشتیبانی ارسال شد. به‌زودی پاسخ داده می‌شود."),
     ("ticket_closed_user", "✅ تیکت #{ticket_id} شما بسته شد. اگر مشکل حل نشده، می‌توانید تیکت جدید بزنید."),
+    ("ticket_user_reply_prefix", "پاسخ پشتیبانی:"),
 ])
 
 
